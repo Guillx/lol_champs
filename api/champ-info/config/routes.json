@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/champ-infos",
+      "handler": "champ-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/champ-infos/count",
+      "handler": "champ-info.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/champ-infos/:id",
+      "handler": "champ-info.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/champ-infos",
+      "handler": "champ-info.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/champ-infos/:id",
+      "handler": "champ-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/champ-infos/:id",
+      "handler": "champ-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

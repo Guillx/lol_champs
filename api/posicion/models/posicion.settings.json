@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posicions",
+  "info": {
+    "name": "posicion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "champ_infos": {
+      "via": "posicions",
+      "collection": "champ-info",
+      "dominant": true
+    }
+  }
+}

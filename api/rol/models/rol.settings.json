@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rols",
+  "info": {
+    "name": "Rol",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

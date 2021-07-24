@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roles",
+  "info": {
+    "name": "Roles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "champ_infos": {
+      "via": "rols",
+      "collection": "champ-info",
+      "dominant": true
+    }
+  }
+}
